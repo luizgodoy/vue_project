@@ -2,7 +2,7 @@
   <div>
     <Titulo :texto="professorid != undefined ? 'Professor: ' + professor.nome : 'Todos os alunos: '"/>
     <div v-if="professorid != undefined">
-      <input class="btnInput" type="text" placeholder="Nome do Aluno" v-model="nome" v-on:keyup.enter="adicionarAluno()"/>
+      <input class="input" type="text" placeholder="Nome do Aluno" v-model="nome" v-on:keyup.enter="adicionarAluno()"/>
       <button class="btn btnInput" @click="adicionarAluno()">Adicionar</button>
     </div>
     <table>
@@ -103,4 +103,27 @@ export default {
 </script>
 
 <style scoped>
+input {
+  width: calc(100%-150px);
+  border: 0;
+  padding: 20px;
+  font-size: 1.3em;
+  color: #687f7f;
+  display: inline;
+}
+
+.btnInput {
+  width: 150px;
+  border: 0px;
+  padding: 20px;
+  font-size: 1.3em;
+  color: white;
+  background-color: rgb(116,115,115);
+}
+
+.btnInput:hover {
+  padding: 20px;
+  margin: 0px;
+  border: 0px;
+}
 </style>

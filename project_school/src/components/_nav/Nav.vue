@@ -16,16 +16,16 @@
 
 <style scoped>
 .barraTop{
-    background-color: rgb(230, 230, 230);    
+    background-color: gray;
 }
 
 nav{
-    padding: 40px, 20px, 20px, 0px;
+    padding: 20px, 20px, 20px, 0px;
 }
 
 nav a {
     padding: 10px;
-    text-decoration: none;
+    text-decoration: nany;
     background-color: #fff;
     border-radius: 3px;
     color: rgb(0, 110, 255);

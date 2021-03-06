@@ -22,11 +22,12 @@ export default {
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 
 body {
-  background-color: #eee;
-  font-family: "Montserrat", sans-serif;
+  background-color: palegreen;
+  font-family: 'Courier New', Courier, monospace;
   display: grid;
   justify-items: center;
 }
+
 body, html {
   margin: 0;
   height: 100%;
@@ -44,12 +45,11 @@ body, html {
 .btnDanger {
   font-size: 0.8em;
   background-color: #fa4430;
-  text-align: center;
-  
+  text-align: center;  
 }
 
 .btn {
-  background-color: green;
+  background-color:green;
   padding: 10px 20px;
   cursor: pointer;
   border: 1px solid black;
@@ -87,8 +87,8 @@ table thead th {
 .colPequeno {
   width: 5%;
   text-align: right;
-    background-color: rgb(128,217,245);
-    font-weight: bold;
+  background-color: rgb(128,217,245);
+  font-weight: bold;
 }
 </style>
 
